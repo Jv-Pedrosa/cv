@@ -1,0 +1,197 @@
+/** navigation bar css **/
+ul {
+  list-style-type: none;
+
+  padding: 1px 0px -1px 0px;
+  overflow: hidden;
+  background-color: #002B5B;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #2B4865;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #fff;
+}
+
+.active {
+  background-color: #256D85;
+}
+.jvpogi{
+  font-family: Lucida Handwriting, cursive;
+  position: relative;
+  right: 10%;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  background-color: #E7F6F2;
+}
+
+hr {
+  border-style: dashed;
+  width: 100%;
+}
+
+h1{
+  margin: 0 auto;
+  font-size: 4rem;
+  color: #2C3333;
+
+}
+
+h2{
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #395B64;
+
+
+}
+
+h3{
+  font-family: Lucida Handwriting, cursive;
+}
+h4{
+  text-decoration:underline;
+  font-family: georgia, serif;
+  color: #2C3333;
+}
+span{
+  text-shadow: 5px 1px  white;
+
+}
+.top-container {
+  background-color: #A5C9CA;
+  position: relative;
+  padding: 250px;
+}
+
+.middle-container{
+margin: 50px 0;
+margin-bottom: 100px;
+
+}
+
+.bottom-container{
+  background-color: #A5C9CA;
+  padding: 10px;
+
+
+}
+
+.upper-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+.buttom-cloud{
+  position: absolute;
+  top:25px;
+  left: 300px;
+
+}
+
+.jv{
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.profile{
+  width: 50%;
+  margin: 1px auto 100px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.firstskill{
+  float: left;
+  margin-right: 30px;
+}
+
+.title-bar{
+background-color: #820000;
+padding: 1px 15% 5%;
+
+
+}
+.secondskill{
+  float: right;
+  margin-left: 30px;
+
+}
+
+.contact-me{
+  padding: 7%  15%;
+  margin-bottom:  15px;
+}
+.contact-message{
+  margin: 4px auto 60px;
+  width: 40%;
+}
+
+
+
+a{
+
+  color: #5800FF;
+  text-decoration: none;
+  margin: 10px;
+
+}
+
+a:hover{
+color: #100F0F;
+
+}
+.copyright{
+  color: #100F0F;
+  font-size: 0.75rem;
+  position: relative;
+  top: 25px;
+}
+.message-me{
+  background-color: #fff;
+  font-family: lucida console,monospace;
+  text-align: center;
+  color: #002B5B;
+  padding: 5%;
+  margin: 1px 200px;
+  position: relative;
+  bottom: 50px;
+  border-style:groove;
+}
+
+#skills{
+  background-color: #A5C9CA;
+  padding: 7% 15%;
+}
+.myskills{
+  position:relative;
+  left: 25%;
+  background-color: #A5C9CA;
+}
