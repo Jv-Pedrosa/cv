@@ -32,10 +32,28 @@ li a:hover:not(.active) {
   background-color: #256D85;
 }
 .jvpogi{
-  font-family: Lucida Handwriting, cursive;
-  position: relative;
-  right: 10%;
+  right: 1%;
 }
+p {
+  text-align: justify;
+}
+p.description {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 0;
+  padding: 20px;
+}
+
+p.description::first-letter {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  margin-right: 8px;
+  line-height: 1;
+}
+
 
 body{
   margin: 0;
@@ -173,6 +191,7 @@ color: #100F0F;
   font-size: 0.75rem;
   position: relative;
   top: 25px;
+  text-align: center;
 }
 .message-me{
   background-color: #fff;
